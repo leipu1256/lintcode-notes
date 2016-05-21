@@ -9,7 +9,7 @@ put your own notes and solutions here.
 you can add any reference link such as [title](reference url) here.
 
 **why do I need to break instead of let ```f[i][0] = 0``` ?**
-
+**if there is 0 , It'll block all the path behind 0**
 ```
 public class Solution {
     /**
