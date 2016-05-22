@@ -9,16 +9,28 @@ put your own notes and solutions here.
 you can add any reference link such as [title](reference url) here.
 
 ***recursive : time limit exceded***
+
 ```
-if(n == 1 || n == 0){
+public class Solution {
+    /**
+     * @param n: An integer
+     * @return: An integer
+     */
+    public int climbStairs(int n) {
+      
+        if(n == 1 || n == 0){
             return 1;
         }
         if(n == 2){
             return 2;
         }
         return climbStairs(n - 1) + climbStairs(n - 2);
-        ```
-** DP**
+    }
+}
+```
+ 
+*** DP***
+
 ```
 public class Solution {
     /**
